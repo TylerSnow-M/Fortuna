@@ -53,6 +53,10 @@
 .btn-group button:hover {
   background-color: #55c26c;
   border-color: #5b945b;
+  animation-name: pulse;
+  animation-duration: 1.5s;
+  animation-timing-function: ease-out;
+  animation-iteration-count: infinite;
 }
 
 .navigation {
@@ -63,3 +67,15 @@
   align-items: center;
 }
 /* Header End */
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
