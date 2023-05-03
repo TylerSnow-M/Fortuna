@@ -1,6 +1,6 @@
 :root {
-  --primary: #0b82e4;
-  --secondary: #49da68;
+  --primary: #542cb7;
+  --secondary: #e6e6e6;
 }
 
 .bg-custom-primary {
@@ -8,7 +8,7 @@
 }
 
 .bg-custom-secondary {
-  background-color: #49da68; /* Custom secondary color */
+  background-color: var(--secondary); /* Custom secondary color */
 }
 
 /* Header */
@@ -45,14 +45,14 @@
   height: 50px;
   margin: 5px;
   background-color: var(--secondary);
-  color: #fff;
+  color: #000000;
   border-color: var(--secondary);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
 
 .btn-group button:hover {
-  background-color: #55c26c;
-  border-color: #5b945b;
+  background-color: #2e1865;
+  border-color: #000000;
 }
 
 .navigation {
