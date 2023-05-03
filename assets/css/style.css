@@ -19,6 +19,15 @@
   border-radius: 50%;
 }
 
+.logo {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-image: url(/assets/images/logoCrop.jpg);
+  background-position: -28px;
+  background-size: 250%;
+}
+
 .profile-pic {
   display: block;
   height: 150px;
@@ -57,7 +66,6 @@
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
-=======
   background-color: #2e1865;
   border-color: #000000;
 }
