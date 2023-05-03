@@ -69,6 +69,16 @@
   border-color: #000000;
 }
 
+#overview,
+#investments,
+#goals,
+#loans,
+#social,
+#settings {
+  border-radius: 5px;
+  font-size: 20px;
+}
+
 .navigation {
   height: 100%;
   display: flex;
