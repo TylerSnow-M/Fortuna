@@ -24,11 +24,12 @@
     <div class="row min-vh-100 no-gutters">
       <header
         class="col-12 col-lg-2 bg-custom-primary text-light sticky-top d-flex flex-column p-4 p-lg-3"
+        style="max-width: 30%"
       >
         <div class="d-flex align-items-center mb-4">
-          <div class="logo-outline d-none d-lg-block mr-3"></div>
+          <div class="logo-outline logo d-none d-lg-block mr-3"></div>
           <h1 class="text-left mb-0">
-            <span class="oi oi-task d-inline d-lg-none"></span>Fortuna
+            <span class="oi d-inline d-lg-none"></span>Fortuna
           </h1>
         </div>
 
@@ -41,26 +42,50 @@
           ></div>
           <div class="btn-group-vertical">
             <div class="btn-group mb-2">
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="overview"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Overview
               </button>
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="investments"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Investments
               </button>
             </div>
             <div class="btn-group mb-2">
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="goals"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Goals
               </button>
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="loans"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Loans
               </button>
             </div>
             <div class="btn-group">
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="social"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Social
               </button>
-              <button type="button" class="btn btn-primary btn-custom">
+              <button
+                id="settings"
+                type="button"
+                class="btn btn-primary btn-custom"
+              >
                 Settings
               </button>
             </div>
@@ -78,7 +103,7 @@
         <div class="m-5 row justify-content-around">
           <div class="col-12 col-md-6 col-xl-6 mb-3">
             <div class="monthSpend h-100">
-              <h4 class="card-header bg-custom-secondary text-light">
+              <h4 class="card-header bg-custom-primary text-light">
                 Monthly Spending
               </h4>
               <div class="h-100 p-3 border rounded">
@@ -88,7 +113,7 @@
           </div>
           <div class="col-12 col-md-6 col-xl-6 mb-3">
             <div class="cashFlow h-100">
-              <h4 class="card-header bg-custom-secondary text-light">
+              <h4 class="card-header bg-custom-primary text-light">
                 Cash Flow
               </h4>
               <ul id="list-inProgress" class="list-group list-group-flush"></ul>

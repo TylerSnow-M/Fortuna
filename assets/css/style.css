@@ -1,6 +1,6 @@
 :root {
-  --primary: #0b82e4;
-  --secondary: #49da68;
+  --primary: #542cb7;
+  --secondary: #e6e6e6;
 }
 
 .bg-custom-primary {
@@ -8,7 +8,7 @@
 }
 
 .bg-custom-secondary {
-  background-color: #49da68; /* Custom secondary color */
+  background-color: var(--secondary); /* Custom secondary color */
 }
 
 /* Header */
@@ -17,6 +17,15 @@
   height: 40px;
   border: 2px solid #fff;
   border-radius: 50%;
+}
+
+.logo {
+  width: 40px;
+  height: 40px;
+  border: none;
+  background-image: url(/assets/images/logoCrop.jpg);
+  background-position: -28px;
+  background-size: 250%;
 }
 
 .profile-pic {
@@ -39,13 +48,12 @@
 }
 
 .btn-group button {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  font-size: 16px;
   width: 150px;
   height: 50px;
-  margin: 5px;
+  margin: 5px 15px 15px;
   background-color: var(--secondary);
-  color: #fff;
+  color: #000000;
   border-color: var(--secondary);
   box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.5);
 }
@@ -57,11 +65,24 @@
   animation-duration: 1.5s;
   animation-timing-function: ease-out;
   animation-iteration-count: infinite;
+  background-color: #2e1865;
+  border-color: #000000;
+}
+
+#overview,
+#investments,
+#goals,
+#loans,
+#social,
+#settings {
+  border-radius: 5px;
+  font-size: 20px;
 }
 
 .navigation {
   height: 100%;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
