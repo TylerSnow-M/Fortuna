@@ -48,11 +48,10 @@
 }
 
 .btn-group button {
-  margin-right: 10px;
-  margin-bottom: 10px;
+  font-size: 16px;
   width: 150px;
   height: 50px;
-  margin: 5px;
+  margin: 5px 15px 15px;
   background-color: var(--secondary);
   color: #000000;
   border-color: var(--secondary);
@@ -70,9 +69,20 @@
   border-color: #000000;
 }
 
+#overview,
+#investments,
+#goals,
+#loans,
+#social,
+#settings {
+  border-radius: 5px;
+  font-size: 20px;
+}
+
 .navigation {
   height: 100%;
   display: flex;
+
   flex-direction: column;
   justify-content: center;
   align-items: center;
