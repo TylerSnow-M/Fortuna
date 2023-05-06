@@ -106,6 +106,7 @@ header {
 }
 /* Header End */
 
+/*  Pie Chart Section Start */
 .pie-chart-container {
   position: relative;
   left: 50px;
@@ -130,6 +131,7 @@ header {
   transform: translateX(-50%);
   bottom: 10px;
 }
+/*  Pie Chart Section End */
 
 @keyframes pulse {
   0% {
